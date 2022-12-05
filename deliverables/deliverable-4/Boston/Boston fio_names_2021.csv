@@ -1,0 +1,12 @@
+﻿age,(Multiple Items),,,,
+,,,,,
+Count of race,Column Labels,,,,
+Row Labels,Hispanic Origin,Not of Hispanic Origin,NULL,Unknown,Grand Total
+American Indian or Alaskan Native,,1,,,1
+Asian,,2,,2,4
+Black,57,367,106,74,604
+NULL,,,18,,18
+Other,10,1,1,,12
+Unknown,13,,7,9,29
+White,71,36,12,7,126
+Grand Total,151,407,144,92,794

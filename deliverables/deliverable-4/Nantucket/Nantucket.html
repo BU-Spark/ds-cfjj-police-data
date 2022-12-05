@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_350e98572b8e0e2899e0d0b56983dc74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_350e98572b8e0e2899e0d0b56983dc74" ></div>
+        
+</body>
+<script>    
+    
+            var map_350e98572b8e0e2899e0d0b56983dc74 = L.map(
+                "map_350e98572b8e0e2899e0d0b56983dc74",
+                {
+                    center: [41.2835, -70.0995],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e4e19c1c3fef360398c0976300c2b1f5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+            var circle_08681d756c556605138a874a565e662b = L.circle(
+                [41.2773218, -70.0935648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_bfc81add079dcdc66fddbeb625dc0200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5914f64a696073f02059e557a450ffd7 = $(`<div id="html_5914f64a696073f02059e557a450ffd7" style="width: 100.0%; height: 100.0%;"><i>82 Union St</i></div>`)[0];
+                popup_bfc81add079dcdc66fddbeb625dc0200.setContent(html_5914f64a696073f02059e557a450ffd7);
+            
+        
+
+        circle_08681d756c556605138a874a565e662b.bindPopup(popup_bfc81add079dcdc66fddbeb625dc0200)
+        ;
+
+        
+    
+    
+            var circle_b49990ee77e85bf3b080534281715d56 = L.circle(
+                [41.2628065, -70.1002045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_7135ac2c1d3577ae1ce6cfd6c1ab4556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e53078fd508d2bced569becf4861e7 = $(`<div id="html_13e53078fd508d2bced569becf4861e7" style="width: 100.0%; height: 100.0%;"><i>4 Miacomet Rd,B</i></div>`)[0];
+                popup_7135ac2c1d3577ae1ce6cfd6c1ab4556.setContent(html_13e53078fd508d2bced569becf4861e7);
+            
+        
+
+        circle_b49990ee77e85bf3b080534281715d56.bindPopup(popup_7135ac2c1d3577ae1ce6cfd6c1ab4556)
+        ;
+
+        
+    
+    
+            var circle_cc75c0bf29877b9ce5287451c8dce500 = L.circle(
+                [41.26650799999999, -70.094954],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_7add225bb5b5a2295a811e248c8d2063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9124d981e38f4d290638aaebe4105e7 = $(`<div id="html_f9124d981e38f4d290638aaebe4105e7" style="width: 100.0%; height: 100.0%;"><i>Hooper Farm Rd/Fifth Wy</i></div>`)[0];
+                popup_7add225bb5b5a2295a811e248c8d2063.setContent(html_f9124d981e38f4d290638aaebe4105e7);
+            
+        
+
+        circle_cc75c0bf29877b9ce5287451c8dce500.bindPopup(popup_7add225bb5b5a2295a811e248c8d2063)
+        ;
+
+        
+    
+    
+            var circle_5dd1884743c13f4a5f7768ce9395af08 = L.circle(
+                [41.2692628, -70.1067174],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_873c5968b4724de02864fcd137090e2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e730ea857ad89d50283705136a899fd2 = $(`<div id="html_e730ea857ad89d50283705136a899fd2" style="width: 100.0%; height: 100.0%;"><i>4 Bailey Rd</i></div>`)[0];
+                popup_873c5968b4724de02864fcd137090e2d.setContent(html_e730ea857ad89d50283705136a899fd2);
+            
+        
+
+        circle_5dd1884743c13f4a5f7768ce9395af08.bindPopup(popup_873c5968b4724de02864fcd137090e2d)
+        ;
+
+        
+    
+    
+            var circle_eeb6f9018619ac771df19c7fd17264f6 = L.circle(
+                [41.284572, -70.0980249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_4ab73d93227ebea0a969381cc2f5b41e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22cafa06929913305c2861a54a8a8d7a = $(`<div id="html_22cafa06929913305c2861a54a8a8d7a" style="width: 100.0%; height: 100.0%;"><i>15 S Water St</i></div>`)[0];
+                popup_4ab73d93227ebea0a969381cc2f5b41e.setContent(html_22cafa06929913305c2861a54a8a8d7a);
+            
+        
+
+        circle_eeb6f9018619ac771df19c7fd17264f6.bindPopup(popup_4ab73d93227ebea0a969381cc2f5b41e)
+        ;
+
+        
+    
+    
+            var circle_0bf4423bb1071b996fcb8ef02095767c = L.circle(
+                [41.2811558, -70.0801096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_00f95f64a7e5fcaaeab5e94db15dd6c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e40d9eab1545d176e8a9ae5e06a7603 = $(`<div id="html_5e40d9eab1545d176e8a9ae5e06a7603" style="width: 100.0%; height: 100.0%;"><i>64 Monomoy Rd,Main</i></div>`)[0];
+                popup_00f95f64a7e5fcaaeab5e94db15dd6c0.setContent(html_5e40d9eab1545d176e8a9ae5e06a7603);
+            
+        
+
+        circle_0bf4423bb1071b996fcb8ef02095767c.bindPopup(popup_00f95f64a7e5fcaaeab5e94db15dd6c0)
+        ;
+
+        
+    
+    
+            var circle_2697039e94dd99c7373d5fbefa4aa9f8 = L.circle(
+                [41.2805387, -70.0948696],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_98940bb2696f777e42e1b707c859a741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9aa46663bc16ba562a3220826684b1a = $(`<div id="html_b9aa46663bc16ba562a3220826684b1a" style="width: 100.0%; height: 100.0%;"><i>Fayette St/Washington St</i></div>`)[0];
+                popup_98940bb2696f777e42e1b707c859a741.setContent(html_b9aa46663bc16ba562a3220826684b1a);
+            
+        
+
+        circle_2697039e94dd99c7373d5fbefa4aa9f8.bindPopup(popup_98940bb2696f777e42e1b707c859a741)
+        ;
+
+        
+    
+    
+            var circle_75e2e1f7356f1f3f20300bb5058c4c36 = L.circle(
+                [41.2632655, -70.10320329999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_dd14de5f1c1a2d8a0153d0a4476d178d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737308a92e0a1f31786c949c8597663d = $(`<div id="html_737308a92e0a1f31786c949c8597663d" style="width: 100.0%; height: 100.0%;"><i>Essex Rd/Miacomet Av</i></div>`)[0];
+                popup_dd14de5f1c1a2d8a0153d0a4476d178d.setContent(html_737308a92e0a1f31786c949c8597663d);
+            
+        
+
+        circle_75e2e1f7356f1f3f20300bb5058c4c36.bindPopup(popup_dd14de5f1c1a2d8a0153d0a4476d178d)
+        ;
+
+        
+    
+    
+            var circle_0680de4033ca53bc857e17a5404857c7 = L.circle(
+                [41.2788329, -70.0943672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_a9b54d4f1b33e82adf2474b2a21ed9c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d17452fcc5b9044754d3974d28cc80b3 = $(`<div id="html_d17452fcc5b9044754d3974d28cc80b3" style="width: 100.0%; height: 100.0%;"><i>56 Union St</i></div>`)[0];
+                popup_a9b54d4f1b33e82adf2474b2a21ed9c2.setContent(html_d17452fcc5b9044754d3974d28cc80b3);
+            
+        
+
+        circle_0680de4033ca53bc857e17a5404857c7.bindPopup(popup_a9b54d4f1b33e82adf2474b2a21ed9c2)
+        ;
+
+        
+    
+    
+            var circle_d05cf784120ad820ee54878d5fa29a63 = L.circle(
+                [41.2615629, -70.0690659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_d769ad026c934566f8c6d559550a6d39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82960276d1f285e6575f4da0111738e = $(`<div id="html_d82960276d1f285e6575f4da0111738e" style="width: 100.0%; height: 100.0%;"><i>Old South Rd/Pine Crest Dr</i></div>`)[0];
+                popup_d769ad026c934566f8c6d559550a6d39.setContent(html_d82960276d1f285e6575f4da0111738e);
+            
+        
+
+        circle_d05cf784120ad820ee54878d5fa29a63.bindPopup(popup_d769ad026c934566f8c6d559550a6d39)
+        ;
+
+        
+    
+    
+            var circle_549e4588486df23407153ee01126ccde = L.circle(
+                [41.278073, -70.095902],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_ecfce3acbcfd59ead505986ef3f2d05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d215789371666e22eafe2ef29a91b3fa = $(`<div id="html_d215789371666e22eafe2ef29a91b3fa" style="width: 100.0%; height: 100.0%;"><i>York St/Orange St</i></div>`)[0];
+                popup_ecfce3acbcfd59ead505986ef3f2d05c.setContent(html_d215789371666e22eafe2ef29a91b3fa);
+            
+        
+
+        circle_549e4588486df23407153ee01126ccde.bindPopup(popup_ecfce3acbcfd59ead505986ef3f2d05c)
+        ;
+
+        
+    
+    
+            var circle_85093e4c24d833a8070600214c0063d7 = L.circle(
+                [41.249338, -70.114328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_3ab80f3067807378a2f297ed8a57c6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc8c35539abd8e58ef0337318cad290 = $(`<div id="html_ccc8c35539abd8e58ef0337318cad290" style="width: 100.0%; height: 100.0%;"><i>Pond View Dr/Miacomet Rd</i></div>`)[0];
+                popup_3ab80f3067807378a2f297ed8a57c6d7.setContent(html_ccc8c35539abd8e58ef0337318cad290);
+            
+        
+
+        circle_85093e4c24d833a8070600214c0063d7.bindPopup(popup_3ab80f3067807378a2f297ed8a57c6d7)
+        ;
+
+        
+    
+    
+            var circle_e6baf0749e5c92c00045269f5c0bf6d6 = L.circle(
+                [41.2652158, -70.0872443],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_80f4a863cdce4bb71c3ab3bcd669dfaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a52fa892354d7923afdaf93f17c792b3 = $(`<div id="html_a52fa892354d7923afdaf93f17c792b3" style="width: 100.0%; height: 100.0%;"><i>23 Amelia Dr</i></div>`)[0];
+                popup_80f4a863cdce4bb71c3ab3bcd669dfaa.setContent(html_a52fa892354d7923afdaf93f17c792b3);
+            
+        
+
+        circle_e6baf0749e5c92c00045269f5c0bf6d6.bindPopup(popup_80f4a863cdce4bb71c3ab3bcd669dfaa)
+        ;
+
+        
+    
+    
+            var circle_d549cb0b294ce0cfce05063ad1788f0a = L.circle(
+                [41.2711417, -70.09018069999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_dc523da1384d0ac47413039e5ae8ffb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bb9aa304fbbe3544b199301c5bec778 = $(`<div id="html_2bb9aa304fbbe3544b199301c5bec778" style="width: 100.0%; height: 100.0%;"><i>15 Sparks Av</i></div>`)[0];
+                popup_dc523da1384d0ac47413039e5ae8ffb1.setContent(html_2bb9aa304fbbe3544b199301c5bec778);
+            
+        
+
+        circle_d549cb0b294ce0cfce05063ad1788f0a.bindPopup(popup_dc523da1384d0ac47413039e5ae8ffb1)
+        ;
+
+        
+    
+    
+            var circle_cb74f220bf5894fff6b2144566ce8837 = L.circle(
+                [41.284484, -70.0951268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_f97d46d477a355d3465144547e442685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4273c0afca26adc5e73d9f425481531 = $(`<div id="html_b4273c0afca26adc5e73d9f425481531" style="width: 100.0%; height: 100.0%;"><i>Hyline Terminal, Hyannis MA</i></div>`)[0];
+                popup_f97d46d477a355d3465144547e442685.setContent(html_b4273c0afca26adc5e73d9f425481531);
+            
+        
+
+        circle_cb74f220bf5894fff6b2144566ce8837.bindPopup(popup_f97d46d477a355d3465144547e442685)
+        ;
+
+        
+    
+    
+            var circle_ed4c43a31b658ffa808c9689359a6fcf = L.circle(
+                [41.25272289999999, -70.0943657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_b5a49fe05b8d3fa4966c820f17e87170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3db24f258d2808ae7c36e741aa2bced9 = $(`<div id="html_3db24f258d2808ae7c36e741aa2bced9" style="width: 100.0%; height: 100.0%;"><i>2 Gladlands Av,B</i></div>`)[0];
+                popup_b5a49fe05b8d3fa4966c820f17e87170.setContent(html_3db24f258d2808ae7c36e741aa2bced9);
+            
+        
+
+        circle_ed4c43a31b658ffa808c9689359a6fcf.bindPopup(popup_b5a49fe05b8d3fa4966c820f17e87170)
+        ;
+
+        
+    
+    
+            var circle_8c45d01a6163d1678c8cff69dfd609b1 = L.circle(
+                [41.271341, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_da1d3a55065295c1a4483869dafc8b8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6050e2b46a9217ce3ff8e56de916089 = $(`<div id="html_d6050e2b46a9217ce3ff8e56de916089" style="width: 100.0%; height: 100.0%;"><i>30 Sparks Av,1</i></div>`)[0];
+                popup_da1d3a55065295c1a4483869dafc8b8d.setContent(html_d6050e2b46a9217ce3ff8e56de916089);
+            
+        
+
+        circle_8c45d01a6163d1678c8cff69dfd609b1.bindPopup(popup_da1d3a55065295c1a4483869dafc8b8d)
+        ;
+
+        
+    
+    
+            var circle_5a951b89d525ee41cd00dcdddab8f882 = L.circle(
+                [41.271341, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_13ff0d9d493ffa84b0c754e1c1b3581a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cba0695018b4652885ad7a86d12f4675 = $(`<div id="html_cba0695018b4652885ad7a86d12f4675" style="width: 100.0%; height: 100.0%;"><i>30 Sparks Av,1</i></div>`)[0];
+                popup_13ff0d9d493ffa84b0c754e1c1b3581a.setContent(html_cba0695018b4652885ad7a86d12f4675);
+            
+        
+
+        circle_5a951b89d525ee41cd00dcdddab8f882.bindPopup(popup_13ff0d9d493ffa84b0c754e1c1b3581a)
+        ;
+
+        
+    
+    
+            var circle_6cd62c44117ebed459ff21a1096fa9dc = L.circle(
+                [41.284484, -70.0951268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_a7ab265fdaef144aacaaef730f9fe103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_163f9dc2f37164dbf55cfe19fa0eecbd = $(`<div id="html_163f9dc2f37164dbf55cfe19fa0eecbd" style="width: 100.0%; height: 100.0%;"><i>34 Straight Wharf</i></div>`)[0];
+                popup_a7ab265fdaef144aacaaef730f9fe103.setContent(html_163f9dc2f37164dbf55cfe19fa0eecbd);
+            
+        
+
+        circle_6cd62c44117ebed459ff21a1096fa9dc.bindPopup(popup_a7ab265fdaef144aacaaef730f9fe103)
+        ;
+
+        
+    
+    
+            var circle_09e906760787541daa0856dcbb08c718 = L.circle(
+                [41.24493500000001, -70.078707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_5520582934752ec54dd5e9f26e8eaf8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c69e63d20442755babac5b60f2416e1e = $(`<div id="html_c69e63d20442755babac5b60f2416e1e" style="width: 100.0%; height: 100.0%;"><i>69 Nobadeer Av</i></div>`)[0];
+                popup_5520582934752ec54dd5e9f26e8eaf8d.setContent(html_c69e63d20442755babac5b60f2416e1e);
+            
+        
+
+        circle_09e906760787541daa0856dcbb08c718.bindPopup(popup_5520582934752ec54dd5e9f26e8eaf8d)
+        ;
+
+        
+    
+    
+            var circle_193ad11322757ccc88f1f5746153d668 = L.circle(
+                [41.2872411, -70.0979839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_496b45a529dfc86f9f634f6ac0071718 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92e476e60dcccef4734de8187fc795d2 = $(`<div id="html_92e476e60dcccef4734de8187fc795d2" style="width: 100.0%; height: 100.0%;"><i>15 Harbor View Wy</i></div>`)[0];
+                popup_496b45a529dfc86f9f634f6ac0071718.setContent(html_92e476e60dcccef4734de8187fc795d2);
+            
+        
+
+        circle_193ad11322757ccc88f1f5746153d668.bindPopup(popup_496b45a529dfc86f9f634f6ac0071718)
+        ;
+
+        
+    
+    
+            var circle_f39e22d9ff6669decccc5b7b2d44ee96 = L.circle(
+                [41.27213649999999, -70.0909947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_0b3aa6d8aefa2fa1f37f068e6319fe49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_022407be317addb69839e99a7e89746e = $(`<div id="html_022407be317addb69839e99a7e89746e" style="width: 100.0%; height: 100.0%;"><i>11 W Creek Rd</i></div>`)[0];
+                popup_0b3aa6d8aefa2fa1f37f068e6319fe49.setContent(html_022407be317addb69839e99a7e89746e);
+            
+        
+
+        circle_f39e22d9ff6669decccc5b7b2d44ee96.bindPopup(popup_0b3aa6d8aefa2fa1f37f068e6319fe49)
+        ;
+
+        
+    
+    
+            var circle_6a69cbe315c92b2ca8c580252fa7e1fe = L.circle(
+                [41.281275, -70.095263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_68ba163761164a46cd92a609abcf7447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7c2d7ebcfc9724407ea901bed93d1ba = $(`<div id="html_c7c2d7ebcfc9724407ea901bed93d1ba" style="width: 100.0%; height: 100.0%;"><i>38 Washington St</i></div>`)[0];
+                popup_68ba163761164a46cd92a609abcf7447.setContent(html_c7c2d7ebcfc9724407ea901bed93d1ba);
+            
+        
+
+        circle_6a69cbe315c92b2ca8c580252fa7e1fe.bindPopup(popup_68ba163761164a46cd92a609abcf7447)
+        ;
+
+        
+    
+    
+            var circle_4062c2779225f50d708773e396b4d73b = L.circle(
+                [41.272514, -70.092411],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_15cbfbc8d84a360a5e60bfd3998167be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76477ffa9a6cc3111ce5e53758211b14 = $(`<div id="html_76477ffa9a6cc3111ce5e53758211b14" style="width: 100.0%; height: 100.0%;"><i>Pleasant St/Daves St</i></div>`)[0];
+                popup_15cbfbc8d84a360a5e60bfd3998167be.setContent(html_76477ffa9a6cc3111ce5e53758211b14);
+            
+        
+
+        circle_4062c2779225f50d708773e396b4d73b.bindPopup(popup_15cbfbc8d84a360a5e60bfd3998167be)
+        ;
+
+        
+    
+    
+            var circle_8e250e5ccb6d311adba36088669c1556 = L.circle(
+                [41.284484, -70.0951268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_5745c2bc150d419f7c88e464c8348c2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0768662b7075621bc7d84fbed51e58a = $(`<div id="html_b0768662b7075621bc7d84fbed51e58a" style="width: 100.0%; height: 100.0%;"><i>34 Straight Wharf</i></div>`)[0];
+                popup_5745c2bc150d419f7c88e464c8348c2b.setContent(html_b0768662b7075621bc7d84fbed51e58a);
+            
+        
+
+        circle_8e250e5ccb6d311adba36088669c1556.bindPopup(popup_5745c2bc150d419f7c88e464c8348c2b)
+        ;
+
+        
+    
+    
+            var circle_75bc31084705dbbeef6f58e176553bf4 = L.circle(
+                [41.269085, -70.088819],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_fcd280238ef4d806fe86e8df4183cc33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45f274ff09f506db1754c5f814214483 = $(`<div id="html_45f274ff09f506db1754c5f814214483" style="width: 100.0%; height: 100.0%;"><i>Lewis Ct/Newtown Rd</i></div>`)[0];
+                popup_fcd280238ef4d806fe86e8df4183cc33.setContent(html_45f274ff09f506db1754c5f814214483);
+            
+        
+
+        circle_75bc31084705dbbeef6f58e176553bf4.bindPopup(popup_fcd280238ef4d806fe86e8df4183cc33)
+        ;
+
+        
+    
+    
+            var circle_1632cb1c86e25c91be3353f9c731424b = L.circle(
+                [41.2799088, -70.09411720000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_046c642361b2aeeee6edde9e0526d0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0efde86ce3f3ca16995036348a65e54 = $(`<div id="html_e0efde86ce3f3ca16995036348a65e54" style="width: 100.0%; height: 100.0%;"><i>Washington St/Francis St</i></div>`)[0];
+                popup_046c642361b2aeeee6edde9e0526d0f4.setContent(html_e0efde86ce3f3ca16995036348a65e54);
+            
+        
+
+        circle_1632cb1c86e25c91be3353f9c731424b.bindPopup(popup_046c642361b2aeeee6edde9e0526d0f4)
+        ;
+
+        
+    
+    
+            var circle_eabfadbfdcaa21b520785c52f393cd6a = L.circle(
+                [41.28554990000001, -70.097228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_e6dd633e15c4bb5f213ed568b53a85de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69cd8950c4da825af07c803fb0a0009e = $(`<div id="html_69cd8950c4da825af07c803fb0a0009e" style="width: 100.0%; height: 100.0%;"><i>31 Easy St</i></div>`)[0];
+                popup_e6dd633e15c4bb5f213ed568b53a85de.setContent(html_69cd8950c4da825af07c803fb0a0009e);
+            
+        
+
+        circle_eabfadbfdcaa21b520785c52f393cd6a.bindPopup(popup_e6dd633e15c4bb5f213ed568b53a85de)
+        ;
+
+        
+    
+    
+            var circle_15622f1a89ccdd9d7287a59f1b568e4f = L.circle(
+                [41.2853985, -70.0980653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_e4db8c84041d87722f9c9a68ff90ac61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea5b6f43b6bc9cca47edc526f924ea3 = $(`<div id="html_2ea5b6f43b6bc9cca47edc526f924ea3" style="width: 100.0%; height: 100.0%;"><i>8 Broad St</i></div>`)[0];
+                popup_e4db8c84041d87722f9c9a68ff90ac61.setContent(html_2ea5b6f43b6bc9cca47edc526f924ea3);
+            
+        
+
+        circle_15622f1a89ccdd9d7287a59f1b568e4f.bindPopup(popup_e4db8c84041d87722f9c9a68ff90ac61)
+        ;
+
+        
+    
+    
+            var circle_8450e05be30d94bdfd05b292b79e801c = L.circle(
+                [41.2834704, -70.099451],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_6ce880b329206a00a0b4518222b08fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c4dfcf3c20e6934a9574beb36b1c2c6 = $(`<div id="html_9c4dfcf3c20e6934a9574beb36b1c2c6" style="width: 100.0%; height: 100.0%;"><i>4 Todd Ci</i></div>`)[0];
+                popup_6ce880b329206a00a0b4518222b08fce.setContent(html_9c4dfcf3c20e6934a9574beb36b1c2c6);
+            
+        
+
+        circle_8450e05be30d94bdfd05b292b79e801c.bindPopup(popup_6ce880b329206a00a0b4518222b08fce)
+        ;
+
+        
+    
+    
+            var circle_d3581259444fea7710554c42004aeb43 = L.circle(
+                [41.2603289, -70.1009393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_6ea89ba114a0aad3a673a7eeef1af959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4eab27e4672fb4a56090db3a8ddeb88 = $(`<div id="html_b4eab27e4672fb4a56090db3a8ddeb88" style="width: 100.0%; height: 100.0%;"><i>9 Norquarta Dr,B</i></div>`)[0];
+                popup_6ea89ba114a0aad3a673a7eeef1af959.setContent(html_b4eab27e4672fb4a56090db3a8ddeb88);
+            
+        
+
+        circle_d3581259444fea7710554c42004aeb43.bindPopup(popup_6ea89ba114a0aad3a673a7eeef1af959)
+        ;
+
+        
+    
+    
+            var circle_6138ddf1e679fe97cfa886c1636eeade = L.circle(
+                [41.2593708, -70.06634009999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_49552f05aa7deff8b4294acaf08b1b5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d9f99eb2cfea131cce0fa5e06f28825 = $(`<div id="html_6d9f99eb2cfea131cce0fa5e06f28825" style="width: 100.0%; height: 100.0%;"><i>10 Nobadeer Wy</i></div>`)[0];
+                popup_49552f05aa7deff8b4294acaf08b1b5b.setContent(html_6d9f99eb2cfea131cce0fa5e06f28825);
+            
+        
+
+        circle_6138ddf1e679fe97cfa886c1636eeade.bindPopup(popup_49552f05aa7deff8b4294acaf08b1b5b)
+        ;
+
+        
+    
+    
+            var circle_532197d7ef2a79fc25aae0142ab1057d = L.circle(
+                [41.2593708, -70.06634009999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_c6fd33968cc4e5bf047497b1d5e5f911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_559a38e1a51a60d9f923967e1c75459c = $(`<div id="html_559a38e1a51a60d9f923967e1c75459c" style="width: 100.0%; height: 100.0%;"><i>10 Nobadeer Wy</i></div>`)[0];
+                popup_c6fd33968cc4e5bf047497b1d5e5f911.setContent(html_559a38e1a51a60d9f923967e1c75459c);
+            
+        
+
+        circle_532197d7ef2a79fc25aae0142ab1057d.bindPopup(popup_c6fd33968cc4e5bf047497b1d5e5f911)
+        ;
+
+        
+    
+    
+            var circle_65a7c554699cedc5f03a79f74183f21c = L.circle(
+                [41.2593708, -70.06634009999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_492dc37722be5e25aa543f771292f18d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee95cb8179702fab8e935d443d5274da = $(`<div id="html_ee95cb8179702fab8e935d443d5274da" style="width: 100.0%; height: 100.0%;"><i>10 Nobadeer Wy</i></div>`)[0];
+                popup_492dc37722be5e25aa543f771292f18d.setContent(html_ee95cb8179702fab8e935d443d5274da);
+            
+        
+
+        circle_65a7c554699cedc5f03a79f74183f21c.bindPopup(popup_492dc37722be5e25aa543f771292f18d)
+        ;
+
+        
+    
+    
+            var circle_57ff05c6aa26012e0d4167b5c0ab9e0e = L.circle(
+                [41.2593708, -70.06634009999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_a643cf621b8402c6d5c49ac9d4139a16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dfb0752e6b412fa8487ca4e2b4c016c = $(`<div id="html_2dfb0752e6b412fa8487ca4e2b4c016c" style="width: 100.0%; height: 100.0%;"><i>10 Nobadeer Wy</i></div>`)[0];
+                popup_a643cf621b8402c6d5c49ac9d4139a16.setContent(html_2dfb0752e6b412fa8487ca4e2b4c016c);
+            
+        
+
+        circle_57ff05c6aa26012e0d4167b5c0ab9e0e.bindPopup(popup_a643cf621b8402c6d5c49ac9d4139a16)
+        ;
+
+        
+    
+    
+            var circle_cd145163d361d93bceee26c817141a04 = L.circle(
+                [41.2593708, -70.06634009999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_f9e5b031f1f379424866f8f8951ee808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0f302287a1ac94ff3156eb1b098ca78 = $(`<div id="html_b0f302287a1ac94ff3156eb1b098ca78" style="width: 100.0%; height: 100.0%;"><i>10 Nobadeer Wy</i></div>`)[0];
+                popup_f9e5b031f1f379424866f8f8951ee808.setContent(html_b0f302287a1ac94ff3156eb1b098ca78);
+            
+        
+
+        circle_cd145163d361d93bceee26c817141a04.bindPopup(popup_f9e5b031f1f379424866f8f8951ee808)
+        ;
+
+        
+    
+    
+            var circle_6f4007e40c6f0edddc596aa315bf58f8 = L.circle(
+                [41.2595657, -70.0646809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_dc7796dde7c901be0d9abc7215dbee76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71946fbccc173840b98db7a6b6af2454 = $(`<div id="html_71946fbccc173840b98db7a6b6af2454" style="width: 100.0%; height: 100.0%;"><i>10 Airport Rd</i></div>`)[0];
+                popup_dc7796dde7c901be0d9abc7215dbee76.setContent(html_71946fbccc173840b98db7a6b6af2454);
+            
+        
+
+        circle_6f4007e40c6f0edddc596aa315bf58f8.bindPopup(popup_dc7796dde7c901be0d9abc7215dbee76)
+        ;
+
+        
+    
+    
+            var circle_cdaca857bd64965506a180bf6027c44a = L.circle(
+                [41.2650531, -70.0606138],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_0ae9bf7f448489b6a60be8c02d675d23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7814312a2f6427f818b5840885a23c06 = $(`<div id="html_7814312a2f6427f818b5840885a23c06" style="width: 100.0%; height: 100.0%;"><i>Nobadeer Farm Rd/Teasdale Ci</i></div>`)[0];
+                popup_0ae9bf7f448489b6a60be8c02d675d23.setContent(html_7814312a2f6427f818b5840885a23c06);
+            
+        
+
+        circle_cdaca857bd64965506a180bf6027c44a.bindPopup(popup_0ae9bf7f448489b6a60be8c02d675d23)
+        ;
+
+        
+    
+    
+            var circle_7905b0ef75e3d259d8c8c25db9be4bb6 = L.circle(
+                [41.287467, -70.131588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_73646e3d67d6b1bdef6ccdcf420d4c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3165f5b1ceb8027feac5a055714ff827 = $(`<div id="html_3165f5b1ceb8027feac5a055714ff827" style="width: 100.0%; height: 100.0%;"><i>Washing Pond Rd/Cliff Rd</i></div>`)[0];
+                popup_73646e3d67d6b1bdef6ccdcf420d4c5f.setContent(html_3165f5b1ceb8027feac5a055714ff827);
+            
+        
+
+        circle_7905b0ef75e3d259d8c8c25db9be4bb6.bindPopup(popup_73646e3d67d6b1bdef6ccdcf420d4c5f)
+        ;
+
+        
+    
+    
+            var circle_8da7724edaceb9adbf27ae7fc3badd60 = L.circle(
+                [41.2805387, -70.0948696],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_963f679c0ae863e65840db558b357c37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6b49badb8f53132ae1268eda99ecacb = $(`<div id="html_c6b49badb8f53132ae1268eda99ecacb" style="width: 100.0%; height: 100.0%;"><i>Washington St/Fayette St</i></div>`)[0];
+                popup_963f679c0ae863e65840db558b357c37.setContent(html_c6b49badb8f53132ae1268eda99ecacb);
+            
+        
+
+        circle_8da7724edaceb9adbf27ae7fc3badd60.bindPopup(popup_963f679c0ae863e65840db558b357c37)
+        ;
+
+        
+    
+    
+            var circle_6528e4456565f0f7ffd8bbfc7f1c91eb = L.circle(
+                [41.269255, -70.099926],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_6761debe70c502cb6d0f419a7549396f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87e8a03d640a90b9d72424edacfd62f7 = $(`<div id="html_87e8a03d640a90b9d72424edacfd62f7" style="width: 100.0%; height: 100.0%;"><i>Surfside Rd/Maclean Ln</i></div>`)[0];
+                popup_6761debe70c502cb6d0f419a7549396f.setContent(html_87e8a03d640a90b9d72424edacfd62f7);
+            
+        
+
+        circle_6528e4456565f0f7ffd8bbfc7f1c91eb.bindPopup(popup_6761debe70c502cb6d0f419a7549396f)
+        ;
+
+        
+    
+    
+            var circle_ea7e0f5db20c617c7ff87493ffc19bb4 = L.circle(
+                [41.2650105, -70.1042521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_291fdfcaa0bc40fb0b969ad0421297d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a3637183bcd76a0226c69fc25bbdddf = $(`<div id="html_6a3637183bcd76a0226c69fc25bbdddf" style="width: 100.0%; height: 100.0%;"><i>34 Essex Rd</i></div>`)[0];
+                popup_291fdfcaa0bc40fb0b969ad0421297d7.setContent(html_6a3637183bcd76a0226c69fc25bbdddf);
+            
+        
+
+        circle_ea7e0f5db20c617c7ff87493ffc19bb4.bindPopup(popup_291fdfcaa0bc40fb0b969ad0421297d7)
+        ;
+
+        
+    
+    
+            var circle_aea9bd405109eddfbb52244d74541433 = L.circle(
+                [41.24493500000001, -70.078707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_936b3c1af3bdbadbeb3a97856d7d81be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1014160645df28234215a8ffea9cd478 = $(`<div id="html_1014160645df28234215a8ffea9cd478" style="width: 100.0%; height: 100.0%;"><i>69 Nobadeer Av</i></div>`)[0];
+                popup_936b3c1af3bdbadbeb3a97856d7d81be.setContent(html_1014160645df28234215a8ffea9cd478);
+            
+        
+
+        circle_aea9bd405109eddfbb52244d74541433.bindPopup(popup_936b3c1af3bdbadbeb3a97856d7d81be)
+        ;
+
+        
+    
+    
+            var circle_f51d2bb88dce7bfdb136cb99ebd718c4 = L.circle(
+                [41.2628065, -70.1002045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_1ff3fef1358b262289de468fe74b4afe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89c4e9beb478211cecb912c912daa3e8 = $(`<div id="html_89c4e9beb478211cecb912c912daa3e8" style="width: 100.0%; height: 100.0%;"><i>4 Miacomet Rd,B</i></div>`)[0];
+                popup_1ff3fef1358b262289de468fe74b4afe.setContent(html_89c4e9beb478211cecb912c912daa3e8);
+            
+        
+
+        circle_f51d2bb88dce7bfdb136cb99ebd718c4.bindPopup(popup_1ff3fef1358b262289de468fe74b4afe)
+        ;
+
+        
+    
+    
+            var circle_4784c2a243de586eb732f8014c182d1c = L.circle(
+                [41.261908, -70.0617573],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_4a3e44b71ed2fa6bb8656a04916d197d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2856cc7bbdc4f10fb17727042f500238 = $(`<div id="html_2856cc7bbdc4f10fb17727042f500238" style="width: 100.0%; height: 100.0%;"><i>Square Rigger Rd/Nobadeer Farm Rd</i></div>`)[0];
+                popup_4a3e44b71ed2fa6bb8656a04916d197d.setContent(html_2856cc7bbdc4f10fb17727042f500238);
+            
+        
+
+        circle_4784c2a243de586eb732f8014c182d1c.bindPopup(popup_4a3e44b71ed2fa6bb8656a04916d197d)
+        ;
+
+        
+    
+    
+            var circle_193de9e249ebb76a5183d0ff3986c428 = L.circle(
+                [41.265665, -70.084485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_f76cf4a922a5baf380092abe175ebfc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01838de4f0fae829d66c162b45311fa2 = $(`<div id="html_01838de4f0fae829d66c162b45311fa2" style="width: 100.0%; height: 100.0%;"><i>33 Old South Rd</i></div>`)[0];
+                popup_f76cf4a922a5baf380092abe175ebfc2.setContent(html_01838de4f0fae829d66c162b45311fa2);
+            
+        
+
+        circle_193de9e249ebb76a5183d0ff3986c428.bindPopup(popup_f76cf4a922a5baf380092abe175ebfc2)
+        ;
+
+        
+    
+    
+            var circle_e5ab668e9889b25f278511d9eeb14c3f = L.circle(
+                [41.2738494, -70.0903015],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_fae6d1530fbf8cfd380a178958383413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e166df841781d8fade8cc5f274207bf = $(`<div id="html_7e166df841781d8fade8cc5f274207bf" style="width: 100.0%; height: 100.0%;"><i>144 Orange St</i></div>`)[0];
+                popup_fae6d1530fbf8cfd380a178958383413.setContent(html_7e166df841781d8fade8cc5f274207bf);
+            
+        
+
+        circle_e5ab668e9889b25f278511d9eeb14c3f.bindPopup(popup_fae6d1530fbf8cfd380a178958383413)
+        ;
+
+        
+    
+    
+            var circle_4fe4e2107fe4a7fed31d65b15dc65167 = L.circle(
+                [41.267448, -70.085032],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_80cb1eb92ff7eb6a4413db9fc785a8ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db24dcb715f04641c113faf9940ff846 = $(`<div id="html_db24dcb715f04641c113faf9940ff846" style="width: 100.0%; height: 100.0%;"><i>3 Amelia Dr</i></div>`)[0];
+                popup_80cb1eb92ff7eb6a4413db9fc785a8ad.setContent(html_db24dcb715f04641c113faf9940ff846);
+            
+        
+
+        circle_4fe4e2107fe4a7fed31d65b15dc65167.bindPopup(popup_80cb1eb92ff7eb6a4413db9fc785a8ad)
+        ;
+
+        
+    
+    
+            var circle_8a4dc4a3337510304363caade109dada = L.circle(
+                [41.281275, -70.095263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_7168fece5d05a9f8c4b31b2f38776261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8538a98c18555490c25eeb22b5dced4f = $(`<div id="html_8538a98c18555490c25eeb22b5dced4f" style="width: 100.0%; height: 100.0%;"><i>38 Washington St</i></div>`)[0];
+                popup_7168fece5d05a9f8c4b31b2f38776261.setContent(html_8538a98c18555490c25eeb22b5dced4f);
+            
+        
+
+        circle_8a4dc4a3337510304363caade109dada.bindPopup(popup_7168fece5d05a9f8c4b31b2f38776261)
+        ;
+
+        
+    
+    
+            var circle_978c23cdd521dfdcbfa977afa5aec0ca = L.circle(
+                [41.274424, -70.0896829],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_f199de1507508b0909c06826893699d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d388f7d09436347e9e155030dcfca9f9 = $(`<div id="html_d388f7d09436347e9e155030dcfca9f9" style="width: 100.0%; height: 100.0%;"><i>9 E Creek Rd</i></div>`)[0];
+                popup_f199de1507508b0909c06826893699d4.setContent(html_d388f7d09436347e9e155030dcfca9f9);
+            
+        
+
+        circle_978c23cdd521dfdcbfa977afa5aec0ca.bindPopup(popup_f199de1507508b0909c06826893699d4)
+        ;
+
+        
+    
+    
+            var circle_fa08dc05ad1ce46c16d63f1a7bc7cde4 = L.circle(
+                [41.269985, -70.099997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_3aa8e56b2247159d324db99f3e9251c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bb916c25f7c145b8f9ff37617b54bf9 = $(`<div id="html_3bb916c25f7c145b8f9ff37617b54bf9" style="width: 100.0%; height: 100.0%;"><i>Surfside Rd/Tashama Ln</i></div>`)[0];
+                popup_3aa8e56b2247159d324db99f3e9251c4.setContent(html_3bb916c25f7c145b8f9ff37617b54bf9);
+            
+        
+
+        circle_fa08dc05ad1ce46c16d63f1a7bc7cde4.bindPopup(popup_3aa8e56b2247159d324db99f3e9251c4)
+        ;
+
+        
+    
+    
+            var circle_a53576bb8f2b2f345d03e9048d3242ef = L.circle(
+                [41.2618056, -70.0670844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_fb208955bd7457b369311d9912bf8a23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fa922e4756efaa52be4cbe832477c77 = $(`<div id="html_5fa922e4756efaa52be4cbe832477c77" style="width: 100.0%; height: 100.0%;"><i>104 Old South Rd</i></div>`)[0];
+                popup_fb208955bd7457b369311d9912bf8a23.setContent(html_5fa922e4756efaa52be4cbe832477c77);
+            
+        
+
+        circle_a53576bb8f2b2f345d03e9048d3242ef.bindPopup(popup_fb208955bd7457b369311d9912bf8a23)
+        ;
+
+        
+    
+    
+            var circle_560e941f456b717e3bfb12dbe8b73ba8 = L.circle(
+                [41.245078, -70.088157],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_8cb600087a6b6eb5fff9d21208c5fde4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a41a77721b3a0ffdb8b483aee5086e4d = $(`<div id="html_a41a77721b3a0ffdb8b483aee5086e4d" style="width: 100.0%; height: 100.0%;"><i>39 Nonantum Av</i></div>`)[0];
+                popup_8cb600087a6b6eb5fff9d21208c5fde4.setContent(html_a41a77721b3a0ffdb8b483aee5086e4d);
+            
+        
+
+        circle_560e941f456b717e3bfb12dbe8b73ba8.bindPopup(popup_8cb600087a6b6eb5fff9d21208c5fde4)
+        ;
+
+        
+    
+    
+            var circle_7041dd0c2985fa95654a38b9d20a4260 = L.circle(
+                [41.272187, -70.091526],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_acbf7dfb2028ee806208b32515c86690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f33d513d76d5cc7ba5799af3b12f499 = $(`<div id="html_0f33d513d76d5cc7ba5799af3b12f499" style="width: 100.0%; height: 100.0%;"><i>130 Pleasant St</i></div>`)[0];
+                popup_acbf7dfb2028ee806208b32515c86690.setContent(html_0f33d513d76d5cc7ba5799af3b12f499);
+            
+        
+
+        circle_7041dd0c2985fa95654a38b9d20a4260.bindPopup(popup_acbf7dfb2028ee806208b32515c86690)
+        ;
+
+        
+    
+    
+            var circle_ae759876dd194f6a9682d2611e82aa70 = L.circle(
+                [41.2872411, -70.0979839],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_2e69a441e358c1eef7ee7a789230ad8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bab3f6a1f5f419d67b259c562bf453c2 = $(`<div id="html_bab3f6a1f5f419d67b259c562bf453c2" style="width: 100.0%; height: 100.0%;"><i>15 Harbor View Wy</i></div>`)[0];
+                popup_2e69a441e358c1eef7ee7a789230ad8b.setContent(html_bab3f6a1f5f419d67b259c562bf453c2);
+            
+        
+
+        circle_ae759876dd194f6a9682d2611e82aa70.bindPopup(popup_2e69a441e358c1eef7ee7a789230ad8b)
+        ;
+
+        
+    
+    
+            var circle_86cc70af4b6377c7a51c1fa991d5b0e3 = L.circle(
+                [41.2628065, -70.1002045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_dae402237fa26c29251be27ae4e3e29e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f659802bb951a2f2653386d86e28106 = $(`<div id="html_8f659802bb951a2f2653386d86e28106" style="width: 100.0%; height: 100.0%;"><i>4 Miacomet Rd</i></div>`)[0];
+                popup_dae402237fa26c29251be27ae4e3e29e.setContent(html_8f659802bb951a2f2653386d86e28106);
+            
+        
+
+        circle_86cc70af4b6377c7a51c1fa991d5b0e3.bindPopup(popup_dae402237fa26c29251be27ae4e3e29e)
+        ;
+
+        
+    
+    
+            var circle_13ac615d48ede41e3d3d6e59ebbb519e = L.circle(
+                [41.283724, -70.098248],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_a9562bb96426ef62cbf52d04de2a9dfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8eeef6d4d1637c084809dcc3b539b33 = $(`<div id="html_b8eeef6d4d1637c084809dcc3b539b33" style="width: 100.0%; height: 100.0%;"><i>23 Main St</i></div>`)[0];
+                popup_a9562bb96426ef62cbf52d04de2a9dfb.setContent(html_b8eeef6d4d1637c084809dcc3b539b33);
+            
+        
+
+        circle_13ac615d48ede41e3d3d6e59ebbb519e.bindPopup(popup_a9562bb96426ef62cbf52d04de2a9dfb)
+        ;
+
+        
+    
+    
+            var circle_87a3f9e2b2a65bd542e536531c2b1107 = L.circle(
+                [41.266943, -70.092844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_79bc6db41b5966b4cf5072f236fb028a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51038eaec2825f28f2f668b16eabd31b = $(`<div id="html_51038eaec2825f28f2f668b16eabd31b" style="width: 100.0%; height: 100.0%;"><i>Trotters Ln/Rustys Wy</i></div>`)[0];
+                popup_79bc6db41b5966b4cf5072f236fb028a.setContent(html_51038eaec2825f28f2f668b16eabd31b);
+            
+        
+
+        circle_87a3f9e2b2a65bd542e536531c2b1107.bindPopup(popup_79bc6db41b5966b4cf5072f236fb028a)
+        ;
+
+        
+    
+    
+            var circle_92845dfdb843eb2626aa09e896d588f6 = L.circle(
+                [41.266943, -70.092844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_380c502e9ae6b3784e721627b8a37475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e247b2e0e52b0be87c1f7f00a10cde8b = $(`<div id="html_e247b2e0e52b0be87c1f7f00a10cde8b" style="width: 100.0%; height: 100.0%;"><i>Trotters Ln/Rustys Wy</i></div>`)[0];
+                popup_380c502e9ae6b3784e721627b8a37475.setContent(html_e247b2e0e52b0be87c1f7f00a10cde8b);
+            
+        
+
+        circle_92845dfdb843eb2626aa09e896d588f6.bindPopup(popup_380c502e9ae6b3784e721627b8a37475)
+        ;
+
+        
+    
+    
+            var circle_33121107d8c92ac8f4b3a24ed9534480 = L.circle(
+                [41.2678246, -70.0843242],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_f54ec3f898672ad124f15148f6649a92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91f670fa43b87c1a2e8c5fc24262df09 = $(`<div id="html_91f670fa43b87c1a2e8c5fc24262df09" style="width: 100.0%; height: 100.0%;"><i>Amelia Dr/Old South Rd</i></div>`)[0];
+                popup_f54ec3f898672ad124f15148f6649a92.setContent(html_91f670fa43b87c1a2e8c5fc24262df09);
+            
+        
+
+        circle_33121107d8c92ac8f4b3a24ed9534480.bindPopup(popup_f54ec3f898672ad124f15148f6649a92)
+        ;
+
+        
+    
+    
+            var circle_7ce083fe1f7508a820e2aba25dd5414b = L.circle(
+                [41.24893, -70.084632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_d18232b7ce0c2f31f441345e9aaab6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae33129420e7b2c3f73980a1ca6be72 = $(`<div id="html_5ae33129420e7b2c3f73980a1ca6be72" style="width: 100.0%; height: 100.0%;"><i>Boulevarde/Pochick Av</i></div>`)[0];
+                popup_d18232b7ce0c2f31f441345e9aaab6f2.setContent(html_5ae33129420e7b2c3f73980a1ca6be72);
+            
+        
+
+        circle_7ce083fe1f7508a820e2aba25dd5414b.bindPopup(popup_d18232b7ce0c2f31f441345e9aaab6f2)
+        ;
+
+        
+    
+    
+            var circle_0df28e1df0377e5bfb827fb77532d946 = L.circle(
+                [41.265665, -70.084485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_4e472c19ac5f6a5b1f6ad7870302a334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_639585b35de72c004cc4e9255d7f198d = $(`<div id="html_639585b35de72c004cc4e9255d7f198d" style="width: 100.0%; height: 100.0%;"><i>33 Old South Rd</i></div>`)[0];
+                popup_4e472c19ac5f6a5b1f6ad7870302a334.setContent(html_639585b35de72c004cc4e9255d7f198d);
+            
+        
+
+        circle_0df28e1df0377e5bfb827fb77532d946.bindPopup(popup_4e472c19ac5f6a5b1f6ad7870302a334)
+        ;
+
+        
+    
+    
+            var circle_1112803170a88e2c0a228f999f5721d2 = L.circle(
+                [41.265665, -70.084485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_5ca039c80284cb0716ae83936274e5e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca7e6de352a7ee96810f06f50631fccd = $(`<div id="html_ca7e6de352a7ee96810f06f50631fccd" style="width: 100.0%; height: 100.0%;"><i>33 Old South Rd</i></div>`)[0];
+                popup_5ca039c80284cb0716ae83936274e5e6.setContent(html_ca7e6de352a7ee96810f06f50631fccd);
+            
+        
+
+        circle_1112803170a88e2c0a228f999f5721d2.bindPopup(popup_5ca039c80284cb0716ae83936274e5e6)
+        ;
+
+        
+    
+    
+            var circle_6ce0315ed31cdf567a1406fcbc73a82b = L.circle(
+                [41.2785377, -70.10039119999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_0be587bc0c2e9a832908f6d7b87aae07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34db24b08e6e41b19c1941063252fb15 = $(`<div id="html_34db24b08e6e41b19c1941063252fb15" style="width: 100.0%; height: 100.0%;"><i>4 S Mill St</i></div>`)[0];
+                popup_0be587bc0c2e9a832908f6d7b87aae07.setContent(html_34db24b08e6e41b19c1941063252fb15);
+            
+        
+
+        circle_6ce0315ed31cdf567a1406fcbc73a82b.bindPopup(popup_0be587bc0c2e9a832908f6d7b87aae07)
+        ;
+
+        
+    
+    
+            var circle_cc874ad653c82092f55310a184bf6e5c = L.circle(
+                [41.266943, -70.092844],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_eacfc58d6936e3ad5bc253115adb419a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aae117a5d36664e0585402d989f75fe1 = $(`<div id="html_aae117a5d36664e0585402d989f75fe1" style="width: 100.0%; height: 100.0%;"><i>Trotters Ln/Rustys Wy</i></div>`)[0];
+                popup_eacfc58d6936e3ad5bc253115adb419a.setContent(html_aae117a5d36664e0585402d989f75fe1);
+            
+        
+
+        circle_cc874ad653c82092f55310a184bf6e5c.bindPopup(popup_eacfc58d6936e3ad5bc253115adb419a)
+        ;
+
+        
+    
+    
+            var circle_7ef6c3970bde183cf2a2db559c50871f = L.circle(
+                [41.2747361, -70.09213439999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_31f4d3838acab7bd198ee888147e608e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30981cd9e3566ae94e5b2a51e55d976f = $(`<div id="html_30981cd9e3566ae94e5b2a51e55d976f" style="width: 100.0%; height: 100.0%;"><i>134 Orange St</i></div>`)[0];
+                popup_31f4d3838acab7bd198ee888147e608e.setContent(html_30981cd9e3566ae94e5b2a51e55d976f);
+            
+        
+
+        circle_7ef6c3970bde183cf2a2db559c50871f.bindPopup(popup_31f4d3838acab7bd198ee888147e608e)
+        ;
+
+        
+    
+    
+            var circle_3bff5d1933433b5e14d2fccaf18d0817 = L.circle(
+                [41.2719157, -70.0921809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_b9ce90d556c392fe7396192dd351b40f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4f16e63752b75cedbc80fc63b51b1d5 = $(`<div id="html_e4f16e63752b75cedbc80fc63b51b1d5" style="width: 100.0%; height: 100.0%;"><i>31 Sparks Av,1</i></div>`)[0];
+                popup_b9ce90d556c392fe7396192dd351b40f.setContent(html_e4f16e63752b75cedbc80fc63b51b1d5);
+            
+        
+
+        circle_3bff5d1933433b5e14d2fccaf18d0817.bindPopup(popup_b9ce90d556c392fe7396192dd351b40f)
+        ;
+
+        
+    
+    
+            var circle_baa1448b2ce775ba6b3515a361504402 = L.circle(
+                [41.2732517, -70.0935299],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_adab10628063dc0fc7557d87841b6c3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee10588a544b9664dbfb55823009922a = $(`<div id="html_ee10588a544b9664dbfb55823009922a" style="width: 100.0%; height: 100.0%;"><i>110 Pleasant St</i></div>`)[0];
+                popup_adab10628063dc0fc7557d87841b6c3a.setContent(html_ee10588a544b9664dbfb55823009922a);
+            
+        
+
+        circle_baa1448b2ce775ba6b3515a361504402.bindPopup(popup_adab10628063dc0fc7557d87841b6c3a)
+        ;
+
+        
+    
+    
+            var circle_343d0b9c1e23d6d18edaf2b597335921 = L.circle(
+                [41.2755127, -70.09291499999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_199c3ba5f4dc51831e2eea14868308fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_811e7fb063a08c4bebf86220b91e5bf0 = $(`<div id="html_811e7fb063a08c4bebf86220b91e5bf0" style="width: 100.0%; height: 100.0%;"><i>8 Goose Pond Ln</i></div>`)[0];
+                popup_199c3ba5f4dc51831e2eea14868308fb.setContent(html_811e7fb063a08c4bebf86220b91e5bf0);
+            
+        
+
+        circle_343d0b9c1e23d6d18edaf2b597335921.bindPopup(popup_199c3ba5f4dc51831e2eea14868308fb)
+        ;
+
+        
+    
+    
+            var circle_cd0d51b5238f5dca3ab296ac00461528 = L.circle(
+                [41.2769741, -70.1051548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_5dc3824e4c6a2fbae3fa9e0209c03764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4de9185852895f941b675496e6ef7d32 = $(`<div id="html_4de9185852895f941b675496e6ef7d32" style="width: 100.0%; height: 100.0%;"><i>3 Old Farm Rd</i></div>`)[0];
+                popup_5dc3824e4c6a2fbae3fa9e0209c03764.setContent(html_4de9185852895f941b675496e6ef7d32);
+            
+        
+
+        circle_cd0d51b5238f5dca3ab296ac00461528.bindPopup(popup_5dc3824e4c6a2fbae3fa9e0209c03764)
+        ;
+
+        
+    
+    
+            var circle_13ef93df6ba462d7fdd2dbfccac07659 = L.circle(
+                [41.2649848, -70.1049498],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_0048034765143bab166368569005e791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e8e64f28e098cda90455c355153a69 = $(`<div id="html_f7e8e64f28e098cda90455c355153a69" style="width: 100.0%; height: 100.0%;"><i>33 Essex Rd</i></div>`)[0];
+                popup_0048034765143bab166368569005e791.setContent(html_f7e8e64f28e098cda90455c355153a69);
+            
+        
+
+        circle_13ef93df6ba462d7fdd2dbfccac07659.bindPopup(popup_0048034765143bab166368569005e791)
+        ;
+
+        
+    
+    
+            var circle_c68a251fa3ee58b5dacc091662dfab89 = L.circle(
+                [41.256905, -70.0987481],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_1050cd3fc7531a8abe6b84ece24a4735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9a03b151664edea2522d6dbb12503f4 = $(`<div id="html_f9a03b151664edea2522d6dbb12503f4" style="width: 100.0%; height: 100.0%;"><i>South Shore Rd/Wherowhero Ln</i></div>`)[0];
+                popup_1050cd3fc7531a8abe6b84ece24a4735.setContent(html_f9a03b151664edea2522d6dbb12503f4);
+            
+        
+
+        circle_c68a251fa3ee58b5dacc091662dfab89.bindPopup(popup_1050cd3fc7531a8abe6b84ece24a4735)
+        ;
+
+        
+    
+    
+            var circle_e4cb8253468c3378557e209e2b442040 = L.circle(
+                [41.2610737, -70.09997249999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_51eb9c552aec08c5251c95285d76a434 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50d7232f21de14c749aa232265b9827c = $(`<div id="html_50d7232f21de14c749aa232265b9827c" style="width: 100.0%; height: 100.0%;"><i>5 Wappossett Ci</i></div>`)[0];
+                popup_51eb9c552aec08c5251c95285d76a434.setContent(html_50d7232f21de14c749aa232265b9827c);
+            
+        
+
+        circle_e4cb8253468c3378557e209e2b442040.bindPopup(popup_51eb9c552aec08c5251c95285d76a434)
+        ;
+
+        
+    
+    
+            var circle_d9498ba00e15ffe17a2cb163ab623523 = L.circle(
+                [41.271341, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_aef67098debabb2c7f1968e027c5d23f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4088915c8e3e48b70dfcf13e9f7b8197 = $(`<div id="html_4088915c8e3e48b70dfcf13e9f7b8197" style="width: 100.0%; height: 100.0%;"><i>30 Sparks Av</i></div>`)[0];
+                popup_aef67098debabb2c7f1968e027c5d23f.setContent(html_4088915c8e3e48b70dfcf13e9f7b8197);
+            
+        
+
+        circle_d9498ba00e15ffe17a2cb163ab623523.bindPopup(popup_aef67098debabb2c7f1968e027c5d23f)
+        ;
+
+        
+    
+    
+            var circle_7e4e23d6aaf4d88f2e1fe2273a3b2c33 = L.circle(
+                [41.271341, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_629c31b4bfb183b263eb9760ec55fe69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0d728349cb558b32d5099383faed882 = $(`<div id="html_a0d728349cb558b32d5099383faed882" style="width: 100.0%; height: 100.0%;"><i>30 Sparks Av</i></div>`)[0];
+                popup_629c31b4bfb183b263eb9760ec55fe69.setContent(html_a0d728349cb558b32d5099383faed882);
+            
+        
+
+        circle_7e4e23d6aaf4d88f2e1fe2273a3b2c33.bindPopup(popup_629c31b4bfb183b263eb9760ec55fe69)
+        ;
+
+        
+    
+    
+            var circle_8940e676e127935186056daa38dd145b = L.circle(
+                [41.2676038, -70.0879441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_774e61e42044fa8d5eeedf504bbd5a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef48e708ea717280d1ced342315682c7 = $(`<div id="html_ef48e708ea717280d1ced342315682c7" style="width: 100.0%; height: 100.0%;"><i>4 Fairgrounds Rd</i></div>`)[0];
+                popup_774e61e42044fa8d5eeedf504bbd5a4a.setContent(html_ef48e708ea717280d1ced342315682c7);
+            
+        
+
+        circle_8940e676e127935186056daa38dd145b.bindPopup(popup_774e61e42044fa8d5eeedf504bbd5a4a)
+        ;
+
+        
+    
+    
+            var circle_85abd4349ccffb08ed6504209a8bb994 = L.circle(
+                [41.2639135, -70.0767138],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_bab95d715caced8749c0e0be6d0d539b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ec3a6be6fc9d4c25843d497008b788f = $(`<div id="html_2ec3a6be6fc9d4c25843d497008b788f" style="width: 100.0%; height: 100.0%;"><i>60 Old South Rd</i></div>`)[0];
+                popup_bab95d715caced8749c0e0be6d0d539b.setContent(html_2ec3a6be6fc9d4c25843d497008b788f);
+            
+        
+
+        circle_85abd4349ccffb08ed6504209a8bb994.bindPopup(popup_bab95d715caced8749c0e0be6d0d539b)
+        ;
+
+        
+    
+    
+            var circle_5e961b78ceca85ebb93dda40b72074b0 = L.circle(
+                [41.264865, -70.0697996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_b8321c2aa3694ff7ba35b912371ec270 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb1af2d828219687b73dba2da0fc45b7 = $(`<div id="html_bb1af2d828219687b73dba2da0fc45b7" style="width: 100.0%; height: 100.0%;"><i>Forrest Av/Old South Rd</i></div>`)[0];
+                popup_b8321c2aa3694ff7ba35b912371ec270.setContent(html_bb1af2d828219687b73dba2da0fc45b7);
+            
+        
+
+        circle_5e961b78ceca85ebb93dda40b72074b0.bindPopup(popup_b8321c2aa3694ff7ba35b912371ec270)
+        ;
+
+        
+    
+    
+            var circle_6ab231bb356a2ed5dc5176721f882797 = L.circle(
+                [41.2744338, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_3477827aa808a71dea8d4d88ede4a3cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9237359902d21eada1213303f67c34b4 = $(`<div id="html_9237359902d21eada1213303f67c34b4" style="width: 100.0%; height: 100.0%;"><i>129 Orange St, 1</i></div>`)[0];
+                popup_3477827aa808a71dea8d4d88ede4a3cc.setContent(html_9237359902d21eada1213303f67c34b4);
+            
+        
+
+        circle_6ab231bb356a2ed5dc5176721f882797.bindPopup(popup_3477827aa808a71dea8d4d88ede4a3cc)
+        ;
+
+        
+    
+    
+            var circle_b085a70da1ab0117b6eb9dce8c603d55 = L.circle(
+                [41.2591573, -70.1061127],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_45f8a5ee8d3a72b6608d03e59c43bd18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f282d361a6d6e09cdeeeed1b20eab720 = $(`<div id="html_f282d361a6d6e09cdeeeed1b20eab720" style="width: 100.0%; height: 100.0%;"><i>68 Miacomet Av</i></div>`)[0];
+                popup_45f8a5ee8d3a72b6608d03e59c43bd18.setContent(html_f282d361a6d6e09cdeeeed1b20eab720);
+            
+        
+
+        circle_b085a70da1ab0117b6eb9dce8c603d55.bindPopup(popup_45f8a5ee8d3a72b6608d03e59c43bd18)
+        ;
+
+        
+    
+    
+            var circle_5395a6fe1af91847b273f4ad13924d79 = L.circle(
+                [41.2856238, -70.0962744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_88cc6914cb7e114644a429d56e7737f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575b2ccc0c900460db44d2663687beff = $(`<div id="html_575b2ccc0c900460db44d2663687beff" style="width: 100.0%; height: 100.0%;"><i>1 Steamboat Wharf , 1</i></div>`)[0];
+                popup_88cc6914cb7e114644a429d56e7737f4.setContent(html_575b2ccc0c900460db44d2663687beff);
+            
+        
+
+        circle_5395a6fe1af91847b273f4ad13924d79.bindPopup(popup_88cc6914cb7e114644a429d56e7737f4)
+        ;
+
+        
+    
+    
+            var circle_4278640519904a65d16585bd93f6d461 = L.circle(
+                [41.2574577, -70.010887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_c83530e6bd4978f6e2889583677256fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_502bf4324449b72a4a70079c48ea2d70 = $(`<div id="html_502bf4324449b72a4a70079c48ea2d70" style="width: 100.0%; height: 100.0%;"><i>10 Ipswich St</i></div>`)[0];
+                popup_c83530e6bd4978f6e2889583677256fc.setContent(html_502bf4324449b72a4a70079c48ea2d70);
+            
+        
+
+        circle_4278640519904a65d16585bd93f6d461.bindPopup(popup_c83530e6bd4978f6e2889583677256fc)
+        ;
+
+        
+    
+    
+            var circle_2a9f58c3b9c55d5783eefbef201a0ed6 = L.circle(
+                [41.2632046, -70.0992864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_e79f44965078473bbea3881019e8fd64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f1c3de9d1b42701b047e11a8d39248e = $(`<div id="html_9f1c3de9d1b42701b047e11a8d39248e" style="width: 100.0%; height: 100.0%;"><i>13 Surfside Dr,A</i></div>`)[0];
+                popup_e79f44965078473bbea3881019e8fd64.setContent(html_9f1c3de9d1b42701b047e11a8d39248e);
+            
+        
+
+        circle_2a9f58c3b9c55d5783eefbef201a0ed6.bindPopup(popup_e79f44965078473bbea3881019e8fd64)
+        ;
+
+        
+    
+    
+            var circle_7caab3696775f55a7becdb392f29cfcf = L.circle(
+                [41.2745501, -70.09627789999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_87b8145e26a243a662d5e57d9dfdfd93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91db9e3d072b78252026c281c92a80af = $(`<div id="html_91db9e3d072b78252026c281c92a80af" style="width: 100.0%; height: 100.0%;"><i>Cherry St/Pleasant St</i></div>`)[0];
+                popup_87b8145e26a243a662d5e57d9dfdfd93.setContent(html_91db9e3d072b78252026c281c92a80af);
+            
+        
+
+        circle_7caab3696775f55a7becdb392f29cfcf.bindPopup(popup_87b8145e26a243a662d5e57d9dfdfd93)
+        ;
+
+        
+    
+    
+            var circle_1c9b58dea84040e58178cf794cd46d59 = L.circle(
+                [41.271341, -70.09297169999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_c5bf7b1eac2ff77855dbce07374d2a5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32cf8d24823151edf54ea5e6e4de271d = $(`<div id="html_32cf8d24823151edf54ea5e6e4de271d" style="width: 100.0%; height: 100.0%;"><i>30 Sparks Av</i></div>`)[0];
+                popup_c5bf7b1eac2ff77855dbce07374d2a5b.setContent(html_32cf8d24823151edf54ea5e6e4de271d);
+            
+        
+
+        circle_1c9b58dea84040e58178cf794cd46d59.bindPopup(popup_c5bf7b1eac2ff77855dbce07374d2a5b)
+        ;
+
+        
+    
+    
+            var circle_4ce55e20e0f58cdbe81b96bef3cac7b1 = L.circle(
+                [41.2610737, -70.09997249999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_c3ae1c289342110f2a271f18f7b38a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e3d524d46235fadfb35ab9840f1d4e = $(`<div id="html_55e3d524d46235fadfb35ab9840f1d4e" style="width: 100.0%; height: 100.0%;"><i>5 Wappossett Ci</i></div>`)[0];
+                popup_c3ae1c289342110f2a271f18f7b38a51.setContent(html_55e3d524d46235fadfb35ab9840f1d4e);
+            
+        
+
+        circle_4ce55e20e0f58cdbe81b96bef3cac7b1.bindPopup(popup_c3ae1c289342110f2a271f18f7b38a51)
+        ;
+
+        
+    
+    
+            var circle_03d531a8e612a4d43adad09fa5c40f09 = L.circle(
+                [41.262583, -70.1194134],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_6ebfab644b4ddeb50a8c5b655a5aba31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cd10cb9f124e17267b73d725bf71fd1 = $(`<div id="html_8cd10cb9f124e17267b73d725bf71fd1" style="width: 100.0%; height: 100.0%;"><i>Raceway Dr/Clara Dr</i></div>`)[0];
+                popup_6ebfab644b4ddeb50a8c5b655a5aba31.setContent(html_8cd10cb9f124e17267b73d725bf71fd1);
+            
+        
+
+        circle_03d531a8e612a4d43adad09fa5c40f09.bindPopup(popup_6ebfab644b4ddeb50a8c5b655a5aba31)
+        ;
+
+        
+    
+    
+            var circle_cd479a31ea68bbe7c5d1a9016ae54b11 = L.circle(
+                [41.2752037, -70.11881149999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_6410e94d89c948d94ba93dbe8b4d6b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad6bb9f9eff6440cb386667ee13e075b = $(`<div id="html_ad6bb9f9eff6440cb386667ee13e075b" style="width: 100.0%; height: 100.0%;"><i>59 Hummock Pond Rd</i></div>`)[0];
+                popup_6410e94d89c948d94ba93dbe8b4d6b64.setContent(html_ad6bb9f9eff6440cb386667ee13e075b);
+            
+        
+
+        circle_cd479a31ea68bbe7c5d1a9016ae54b11.bindPopup(popup_6410e94d89c948d94ba93dbe8b4d6b64)
+        ;
+
+        
+    
+    
+            var circle_8be1c5cbfa5d445eb0e5a299dc20427d = L.circle(
+                [41.2733531, -70.0985073],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_b834a1e96580c3ea175362e3f81ea625 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87d60b18c91080fb5d91e4b9a67a2b1f = $(`<div id="html_87d60b18c91080fb5d91e4b9a67a2b1f" style="width: 100.0%; height: 100.0%;"><i>10 Surfside Rd</i></div>`)[0];
+                popup_b834a1e96580c3ea175362e3f81ea625.setContent(html_87d60b18c91080fb5d91e4b9a67a2b1f);
+            
+        
+
+        circle_8be1c5cbfa5d445eb0e5a299dc20427d.bindPopup(popup_b834a1e96580c3ea175362e3f81ea625)
+        ;
+
+        
+    
+    
+            var circle_fbc83d29b34f4e03ad263358b85c45e7 = L.circle(
+                [41.2676038, -70.0879441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_02b791b0cf7762291ac52cb5b2d00f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c8ee5172081cc5db94e2bffe2d89d97 = $(`<div id="html_7c8ee5172081cc5db94e2bffe2d89d97" style="width: 100.0%; height: 100.0%;"><i>4 Fairgrounds Rd</i></div>`)[0];
+                popup_02b791b0cf7762291ac52cb5b2d00f3a.setContent(html_7c8ee5172081cc5db94e2bffe2d89d97);
+            
+        
+
+        circle_fbc83d29b34f4e03ad263358b85c45e7.bindPopup(popup_02b791b0cf7762291ac52cb5b2d00f3a)
+        ;
+
+        
+    
+    
+            var circle_041b688fbec80ec0a0918ab6548e7b29 = L.circle(
+                [41.2833301, -70.09631259999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_167ace5828ff6efe731667ea73f021fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06916dba83cba71bc9f6751f5a2105b6 = $(`<div id="html_06916dba83cba71bc9f6751f5a2105b6" style="width: 100.0%; height: 100.0%;"><i>9 Salem St,1</i></div>`)[0];
+                popup_167ace5828ff6efe731667ea73f021fc.setContent(html_06916dba83cba71bc9f6751f5a2105b6);
+            
+        
+
+        circle_041b688fbec80ec0a0918ab6548e7b29.bindPopup(popup_167ace5828ff6efe731667ea73f021fc)
+        ;
+
+        
+    
+    
+            var circle_8239e0ec001dd293133561e91d2ccdc0 = L.circle(
+                [41.2595657, -70.0646809],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_323f6506139b011d2f1bcfd4de5cbcd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c3e2ccaf345883a471ff61eb3f8d4c = $(`<div id="html_09c3e2ccaf345883a471ff61eb3f8d4c" style="width: 100.0%; height: 100.0%;"><i>10 Airport Rd</i></div>`)[0];
+                popup_323f6506139b011d2f1bcfd4de5cbcd5.setContent(html_09c3e2ccaf345883a471ff61eb3f8d4c);
+            
+        
+
+        circle_8239e0ec001dd293133561e91d2ccdc0.bindPopup(popup_323f6506139b011d2f1bcfd4de5cbcd5)
+        ;
+
+        
+    
+    
+            var circle_d7dd5afdd266a42481673dc2f81c8bef = L.circle(
+                [41.275952, -70.0943905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_68fcd297769790abe61925dd60e7f86d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb85a4cea0f831ce94cb76d3aca0549b = $(`<div id="html_bb85a4cea0f831ce94cb76d3aca0549b" style="width: 100.0%; height: 100.0%;"><i>115 Orange St</i></div>`)[0];
+                popup_68fcd297769790abe61925dd60e7f86d.setContent(html_bb85a4cea0f831ce94cb76d3aca0549b);
+            
+        
+
+        circle_d7dd5afdd266a42481673dc2f81c8bef.bindPopup(popup_68fcd297769790abe61925dd60e7f86d)
+        ;
+
+        
+    
+    
+            var circle_e65fcfd65da6fb3b3bfcc2da97bd7362 = L.circle(
+                [41.2676038, -70.0879441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_350e98572b8e0e2899e0d0b56983dc74);
+        
+    
+        var popup_b4cac1da4ec3ee853cfecb68efc8508f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e56828f1a8ce28825daf5e0fb3395a1a = $(`<div id="html_e56828f1a8ce28825daf5e0fb3395a1a" style="width: 100.0%; height: 100.0%;"><i>4 Fairgrounds Rd</i></div>`)[0];
+                popup_b4cac1da4ec3ee853cfecb68efc8508f.setContent(html_e56828f1a8ce28825daf5e0fb3395a1a);
+            
+        
+
+        circle_e65fcfd65da6fb3b3bfcc2da97bd7362.bindPopup(popup_b4cac1da4ec3ee853cfecb68efc8508f)
+        ;
+
+        
+    
+</script>

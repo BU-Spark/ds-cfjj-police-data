@@ -1,0 +1,17 @@
+Date,"5,863",100%,,,Method Received,Count of Method Received,Count of Age,% of Method Received,Count of Race,% of Method Received,Count of Ethnicity,% of Method Received,Count of Sex,% of Method Received
+Method Received,"5,728",98%,,,Code-22,593,243,41%,111,19%,26,4%,245,41%
+Sub-class,"4,733",81%,,,E-mail,7,5,71%,4,57%,,0%,5,71%
+Case #,"5,863",100%,,,FIO,55,46,84%,28,51%,6,11%,43,78%
+Location,"5,812",99%,,,In-person,1000,398,40%,267,27%,111,11%,366,37%
+Officer ID,"5,642",96%,,,Internal memo,75,29,39%,18,24%,2,3%,27,36%
+Race,"1,539",26%,,,Radio,2054,1153,56%,552,27%,123,6%,1038,51%
+Ethnicity,355,6%,,,Self-initiated,630,331,53%,243,39%,27,4%,314,50%
+Sex,"2,701",46%,,,Telephone,1314,687,52%,296,23%,52,4%,661,50%
+Age,"2,945",50%,,,(blank),135,53,,20,,8,,35,
+,,,,,Grand Total,5728,2945,51%,1539,27%,355,6%,2734,48%
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Incident Information,4444,1419,0.75797373358349,,,,,,,,,,,
+"Incident & Demographic Information - Race, Sex",971,4892,0.165614872931946,,,,,,,,,,,
+"Incident & Demographic Information - Race, Sex, Age ",963,4900,0.164250383762579,,,,,,,,,,,
